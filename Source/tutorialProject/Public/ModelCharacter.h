@@ -29,6 +29,7 @@ protected:
 	virtual void BeginPlay() override;
 	
 	void MoveForward(float value);
+	void MoveRight(float value);
 	void Turn(float value);
 	void UpDown(float value);
 
